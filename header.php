@@ -1,13 +1,20 @@
-<div class="flex w-full justify-between items-center mt-4">
-    <div></div>
-    <div class="w-1/3"></div>
-    <nav class="flex gap-8 justify-between items-center w-1/3">
-        <a class="bg-green-500 rounded-full py-2 px-4 text-white flex items-center justify-center">صفحه اصلی</a>
-        <a class="bg-green-500 rounded-full py-2 px-4 text-white flex items-center justify-center">فروشگاه</a>
-        <a class="bg-green-500 rounded-full py-2 px-4 flex text-white items-center justify-center">فروشنده شو</a>
-    </nav>
-    <div class="flex justify-center mx-4 w-1/3">
-        <button class="bg-green-200  rounded-full p-2 px-3  pl-9">ورود</button>
-        <button class=" bg-green-500 rounded-full p-2 px-3 text-white -mr-8" >ثبت نام</button>
+<div class="flex p-2" id="hcontainer">
+    <div id="htop" class=" w-full flex justify-between gap-2">
+        <div id="htright" class="flex justify-between">
+            <div id="hlogo" class="flex items-center justify-center ml-6">
+                <img src="logo.png" class="w-14 h-fit ">
+                <div class="flex flex-col justify-around">
+                    <h1 class="text-[#5ea528] h-full flex justify-center items-center mt-2  ">خانه </h1>
+                    <h1 class="text-[#5ea528] h-full flex justify-center items-center">سبز</h1>
+                </div>
+                <p class="text-xs text-gray-500 -ml-64 z-10">محصول مورد نظر خود را جست و جو کنید<i classfas fa-search"></i></p>
+                <input class="bg-lime-100 mr-14 w-60 mx-4 p-2p h-fit rounded-md  p-2 px-3 border border-zinc-300" type="text"
+    >
+            </div>
+        </div>
+        <div id="htleft">
+            <button class="p-2 text-md borde-2 text-[#5ea528] border-l border-[#5ea528]">ورود</button>
+            <button class="p-2 text-md text-[#5ea528]">ثبت نام</button>
+        </div>
     </div>
-</div> 
+</div>
